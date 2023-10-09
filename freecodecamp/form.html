@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">
+freeCodeCamp Survery Form 
+    </h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platfrom   
+    </p>
+
+    <div class="container">
+
+   
+    <form action="" id="survey-form">
+            <label id="name-label" for="name">Name</label> <input id="name" type="text" placeholder="Enter your name" required>
+            <label id="email" for="email">Email</label>
+            <input id="email"   type="email" placeholder="Enter your Email">
+            <label id="number-label" for="number">phone</label>
+            <input type="text" name="number" id="number" min = "1" max = "50" placeholder=" Enter your numuber ">
+            <select name="dropdown" id="deopdown">
+                <option disabled selected name="" value="Select current role
+            </option>">
+                    Select current role
+                </option>
+                <option name="" value="Student">
+                Student 
+                </option>
+                <option name="" value="Ful time Job">
+                    Full Time Job
+                </option>
+                <option name="" value="Ful time Job">
+                    Full Time Job
+                </option>
+                <option name="" value=" Full Time Learner ">
+                    Full Time Learner 
+                </option>
+                <option name="" value="Prefer not to say">
+                    Prefer not to say
+                </option>
+                <option name="" value="other">
+                   other
+                </option>
+                              
+                
+            </select>
+            <h2>Which option best describes your current role? </h2>
+<label for="Definitely">Definitely</label><input type="radio" name="user-recmmend" value="Definitely">
+<label for="Maybe">Maybe</label><input type="radio" name="user-recmmend" value="Maybe">
+
+<h2>
+    What would you like to see improved>(check all that apply)
+</h2>
+<label for="user_field">Font-end projects</label><input type="checkbox" name="user_field" id="user_field"value="Front-end-projects">
+<label for="user_field">Back-end projects</label><input type="checkbox" name="user_field" id="user_field" value="back-end-projects">
+<textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
+
+            <button type="submit" id="submit"> submit </button>
+        </form>
+</div>
+</body>
+</html>
