@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+    
+}
+header{
+
+
+
+  
+ 
+  font-family: 'Exo 2', sans-serif;
+  
+
+}
+
+header img{
+    width: 55px;
+    border-radius: 100%;
+
+}
+header h1 {
+    font-size: small;
+   
+}
+
+ a{
+    text-decoration: none;
+
+cursor: pointer;
+font-weight: bolder;
+}
+
+#title{
+   color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+ 
+    min-height: 25vh;
+    flex-wrap: wrap;
+
+}
+input{
+    padding: 5px 25px ;
+    border-radius: 25px;
+    border: none;
+ outline: none;
+    margin: 25px;
+}
+.submit {
+    background-color: yellow;
+   cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 60vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container h2{
+    font-weight: bolder;
+    margin: 18px;
+    
+
+}
+#con-video{
+    margin: auto;
+}
+.box{
+    border: 2px solid rgb(238, 214, 214);
+    border-radius: 20px;
+    width: 30vw;
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    
+    
+
+}
+
+.box button{
+    background-color: rgba(16, 48, 16, 0.459);
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 25px;
+    border-radius: 15px;
+
+
+}
+.box h1{
+    margin: 0px 10px;
+   
+
+}
+.box p{
+    margin: 5px;
+    padding: 45px;
+}
+@media only screen and (max-width: 600px) {
+    input{
+        display: flex;
+        justify-content: center;
+    }
+    
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;  }
+  
+  
